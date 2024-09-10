@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-    Massively by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
     <title>Massively by HTML5 UP</title>
@@ -78,6 +73,22 @@
             display: inline;
             margin-right: 1em;
         }
+
+        #profile-pic {
+    width: 200px; /* Size increased */
+    height: 200px;
+    object-fit: cover; /* Ensures image fits properly */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #4CAF50; /* Adds a color pop (formal green) */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adds a soft shadow for depth */
+    margin-top: 1.5em;
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect on hover */
+}
+
+#profile-pic:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
     </style>
 </head>
 <body class="is-preload">
@@ -89,6 +100,7 @@
         <div id="intro">
             <h1>Asmita Shetty<br />
                 Portfolio</h1>
+            <img src="images/pic07.jpg" alt="Profile Picture" id="profile-pic" />
             <p>Aspiring data professional with a strong background in data analysis, data science, and business intelligence. Dedicated to leveraging continual learning and data-driven insights to drive strategic decisions and make a substantial impact in data-centric environments.</p>
             <p><a href="https://www.linkedin.com/in/asmitashetty" class="button" target="_blank">@AsmitaShetty</a></p>
             <ul class="actions">
@@ -116,7 +128,7 @@
             <section class="posts">
                 <article>
                     <header>
-                        <h2><a href="https://github.com/AsmitaShetty/Netflix-Project" target="_blank">Netflix Dashboard Building Using Power BI</a></h2>
+                        <h2><a href="https://github.com/AsmitaShetty/Netflix-Project" target="_blank">Netflix Data Analysis with Power BI</a></h2>
                     </header>
                     <a href="https://github.com/AsmitaShetty/Netflix-Project" class="image fit" target="_blank"><img src="images/pic01.jpg" alt="Netflix Dashboard" /></a>
                     <p>Explore a comprehensive dashboard built using Power BI for Netflix data, showcasing various analytics and visualizations.</p>
@@ -139,7 +151,7 @@
                         <h2><a href="https://github.com/AsmitaShetty/Financial-Modeling" target="_blank">Renewable Energy Financial Modeling with Excel</a></h2>
                     </header>
                     <a href="https://github.com/AsmitaShetty/Financial-Modeling" class="image fit" target="_blank"><img src="images/pic03.jpg" alt="Financial Modeling" /></a>
-                    <p>Detailed financial modeling for renewable energy projects using Excel to assess viability and profitability.</p>
+                    <p>Detailed financial modeling for renewable energy using Excel to assess viability and profitability.</p>
                     <ul class="actions special">
                         <li><a href="https://github.com/AsmitaShetty/Financial-Modeling" class="button" target="_blank">View Project</a></li>
                     </ul>
@@ -166,7 +178,7 @@
                 </article>
 				<article>
                     <header>
-                        <h2><a href="" target="_blank">Truck Data Analysis using Tableau</a></h2>
+                        <h2><a href="" target="_blank">Truck Data Analysis with Tableau</a></h2>
                     </header>
                     <a href="https://github.com/AsmitaShetty/Truck_Data_Analysis" class="image fit" target="_blank"><img src="images/pic06.jpg" alt="Truck Data Analysis" /></a>
                     <p>Analyzed Trucking company's data set to uphold the highest standards of fleet operation safety and efficient.</p>
@@ -176,42 +188,42 @@
                 </article>
             </section>
 
-            <!-- Footer -->
-            <footer id="footer">
-                <section class="split contact">
-                    <section class="location">
-                        <h3>Location</h3>
-                        <p><a href="#">Dallas, TX - 75080</a></p>
-                    </section>
-                    <section>
-                        <h3>Email</h3>
-                        <p><a href="mailto:asmitashetty04@gmail.com">asmitashetty04@gmail.com</a></p>
-                    </section>
-                    <section>
-                        <h3>Social</h3>
-                        <ul class="icons alt">
-                            <li><a href="https://www.linkedin.com/in/asmitashetty" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-                            <li><a href="https://github.com/AsmitaShetty" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-                        </ul>
-                    </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="location">
+                    <h3>Location</h3>
+                    <p><a href="#">Dallas, TX - 75080</a></p>
                 </section>
-            </footer>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="mailto:asmitashetty04@gmail.com">asmitashetty04@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://www.linkedin.com/in/asmitashetty" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="https://github.com/AsmitaShetty" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
 
-            <!-- Copyright -->
-            <div id="copyright">
-                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-            </div>
-
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
         </div>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+    </div>
 
-    </body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
